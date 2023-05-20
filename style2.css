@@ -1,0 +1,243 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap');
+
+html {
+    width: 100%;
+}
+
+body {
+    min-width: none;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 64px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+    display: block;
+  background-color: #475569;
+  width: 1350px;
+  padding: 20px;
+}
+
+.icone {
+  height: 30px;
+  width: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.icone2 {
+    display: block;
+    position: relative;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  left: -400px;
+  
+}
+
+.procurar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #334155;
+  border-radius: 6px;
+  padding-right: 180px;
+  left: 500px;
+}
+
+.text-src {
+  border: none;
+  background: none;
+  outline: none;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 0;
+  line-height: 40px;
+}
+
+::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.fundo {
+    display: block;
+    background-image: url(/imagens/cinza.jpg);
+    position: relative;
+    height: 600px;
+    width: 600px;
+    left: 50px;
+    top: 50px;
+}
+
+.titulo {
+    display: flex;
+    position: absolute;
+    left: 680px;
+    top: 160px;
+    font-family: 'Ubuntu', sans-serif ;
+    color: #ffffff;
+    font-size: 20pt;
+    line-height: 40px;
+}
+
+
+.situacao {
+    display: flex;
+    position: absolute;
+    left: 670px;
+    top: 250px;
+    font-size: 12pt;
+    font-weight: 500;
+    background-color: #F87171;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 2px 5px 2px 25px;
+    border: none;
+    margin-left: 10px;
+}
+
+.marca {
+    display: flex;
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    margin-right: 6px;
+    top: 4px;
+    left: 6px;
+    border-radius: 50%;
+    opacity: 90%;
+}
+
+.marcacao {
+    display:flex;
+    position: absolute;
+    top: 1.9px;
+    left: 9px;
+    color: #F87171;
+    font-size: 12pt;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+}
+
+.bandeira {
+    display: flex;
+    position: relative;
+    background-image: url("/imagens/Brazil.png");
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    left: 680px;
+    top: -320px;
+}
+
+.conteudo {
+    display: block;
+}
+
+.conteudo h2 {
+    display: flex;
+    position: absolute;
+    top: 364px;
+    left: 680px;
+    border-top: 1px solid rgba(161, 161, 170, 1);
+    padding-top: 25px;
+    padding-right: 500px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.conteudo p {
+    display: block;
+    position: absolute;
+    top: 410px;
+    padding: 15px;
+    font-size: 16px;
+    text-align:left;
+    text-indent: 30px;
+    left: 666px;
+    font-family: 'Ubuntu',sans-serif;
+    color: #ffffff;
+}
+
+.baixo h2 {
+    display: flex;
+    position: absolute;
+    top: 525px;
+    left: 680px;
+    border-top: 1px solid rgba(161, 161, 170, 1);
+    padding-top: 25px;
+    padding-right: 423px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+#passos{
+    display: flex;
+    position: absolute;
+    top: 560px;
+    left: 660px;
+    display: inline-block;
+    padding: 15px;
+    border: none;
+    margin:15px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+input#cFrm {
+  background-color: transparent;
+  border: none;
+  opacity: 60%;
+}
+
+#btnSalvar {
+  background-color: #4ADE80;
+  border-radius: 20px;
+  border: none;
+  padding: 3px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #ffffff;
+}
+
+.banner {
+    display: block;
+    position: absolute;
+  background-image: url("/imagens/galaxia.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  width: 1350px;
+}
+
+#rodape {
+  clear: both;
+  padding: 10px;
+  background-color: #475569;
+  margin-top: -4px;
+  width: 1350px; 
+  height: 30px;
+}
+
+#rodape p {
+  text-align: center;
+  color: white;
+}
+
+#rodape p a {
+  color: white;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="/style2.css" />
+    <title>Fulo de mandacaru</title>
+    <script>
+      var btnSalvar = document.querySelector("#btnSalvar")
+
+      console.log(btnSalvar);
+      
+      btnSalvar.addEventListener("click", function() {
+        event.preventDefault();
+
+        var Frm = document.querySelector("#frm");
+        console.log(Frm.tFrm.value);
+      })
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img src="/imagens/9k.png" class="icone2" alt="icone">
+        <div class="procurar">
+          <a href="#" class="sourch"
+            ><img src="/imagens/icone.png" class="icone" alt="Lupa"
+          /></a>
+          <input type="text" class="text-src" placeholder="Pesquisar">
+        </input>
+        </div>
+      </div>
+    </header>
+    <section class="banner">
+        <div class="fundo"></div>
+    <div class="titulo">
+        <div>
+            <h1>Materiais resistentes à radiação espacial</h1>
+        </div>
+        </div>
+        <button class="situacao">
+            <p>avariado</p>
+            <div><img src="/imagens/fundo branco.png" class="marca" alt=""></div>
+            <p class="marcacao">x</p>
+        </button>
+        <div class="bandeira"></div>
+        <div class="conteudo">
+            <h2>Descrição</h2>
+            <p>Este experimento tem como objetivo analisar os efeitos da microgravidade <br/>na densidade óssea e muscular dos astronautas que ficam por longos<br/> períodos a bordo da ISS. A pesquisa busca entender como a falta de<br/> gravidade afeta o corpo humano e quais são as consequências a longo prazo.</p>
+        </div>
+        <div class="baixo">
+            <h2>Passo a passo para reparo</h2>
+            <fieldset id="passos">
+                <input type="checkbox" name="tPasso" id="cPasso"/><label for="cPasso"> Avaliar o dano ao experimento e determinar o que foi afetado;</label><br>
+                <input type="checkbox" name="tPasso" id="cPasso"/><label for="cPasso"> Identificar as peças que precisam ser reparadas ou substituídas;</label><br>
+                <input type="checkbox" name="tPasso" id="cPasso"/><label for="cPasso"> Remover as peças danificadas com cuidado para não prejudicar ainda mais o experimento;</label><br>
+                
+                <form id="frm">
+                  <img src="/imagens/mais.png" alt="adicionar">
+                  <input type="text" name="tFrm" id="cFrm" size="70" placeholder="Adicionar novo item...">
+                  <button id="btnSalvar">Confirmar </button>
+                </form>
+              </fieldset>
+        </div>
+    </section>
+    <footer id="rodape">
+      <p>
+        Background for
+        <a
+          href="https://br.freepik.com/vetores-gratis/fundo-gradiente-de-galaxia_14658088.htm#query=space&position=6&from_view=search&track=robertav1_2_sidr" target="blank"
+          >Freepik</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>

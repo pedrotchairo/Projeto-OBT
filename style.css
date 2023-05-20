@@ -1,0 +1,337 @@
+@charset "UTF-8";
+
+html {
+  width: 100%;
+  list-style: none;
+  overflow-x: hidden;
+}
+
+body {
+  min-width: none;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+.container {
+  height: 64px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  background-color: #475569;
+  width: 100%;
+  padding: 20px;
+  width: 1350px;
+}
+
+.icone {
+  height: 30px;
+  width: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.icone2 {
+  display: flex;
+  position: relative;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  left: -400px;
+}
+
+.procurar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #334155;
+  border-radius: 6px;
+  padding-right: 180px;
+  left: 500px;
+}
+
+.text-src {
+  border: none;
+  background: none;
+  outline: none;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 0;
+  line-height: 40px;
+}
+
+::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+img {
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  opacity: 80%;
+}
+
+h3 {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+#foto {
+  display: block;
+  box-shadow: 1px 1px 4px black;
+  position: absolute;
+  height: 150px;
+  width: 270px;
+  left: 50px;
+  top: 30px;
+}
+
+#foto img {
+  height: 100%;
+  width: 100%;
+}
+
+#foto2{
+  display: block;
+  box-shadow: 1px 1px 4px black;
+  position: absolute;
+  height: 150px;
+  width: 270px;
+  left: 370px;
+  top: 30px;
+}
+
+.banner a {
+  text-decoration: none;
+}
+
+#foto2 img {
+  height: 100%;
+  width: 100%;
+}
+
+#foto3{
+  display: block;
+  box-shadow: 1px 1px 4px black;
+  position: absolute;
+  height: 150px;
+  width: 270px;
+  left: 700px;
+  top: 30px;
+}
+
+#foto3 img {
+  height: 100%;
+  width: 100%;
+}
+
+#foto4{
+  display: block;
+  box-shadow: 1px 1px 4px black;
+  position: absolute;
+  height: 150px;
+  width: 270px;
+  left: 1020px;
+  top: 30px;
+}
+
+#foto4 img {
+  height: 100%;
+  width: 100%;
+}
+
+figcaption.intacto {
+  position: absolute;
+  display: block;
+  background-color: #4ADE80;
+  background-image: url("/imagens/Ellipse\ 2.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-position-x: 3px;
+  height: 20px;
+  border-radius: 7px;
+  left: 100px;
+  top: 200px;
+  cursor:default;
+}
+
+figcaption.intacto p.ta {
+  
+  background-image: url("/imagens/ok.png");
+  background-repeat: no-repeat;
+  background-position:left;
+  background-position-x:5.5px;
+  background-position-y: 7.5px;
+  padding: 1px 5px 4px 20px;
+  color: #ffffff; 
+}
+
+figcaption.avariado {
+  position: absolute;
+  display: block;
+  background-color: #F87171;
+  background-image: url("/imagens/Ellipse\ 2.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-position-x: 3px;
+  height: 20px;
+  border-radius: 7px;
+  left: 100px;
+  top: 200px;
+  cursor:default;
+}
+
+figcaption.avariado p.ta {
+  
+  background-image: url("/imagens/vetor.png");
+  background-repeat: no-repeat;
+  background-position:left;
+  background-position-x:6px;
+  background-position-y: 7.2px;
+  padding: 1px 5px 4px 20px;
+  color: #ffffff; 
+}
+
+#foto5{
+  box-shadow: 1px 1px 4px black;
+  position: absolute;
+  height: 150px;
+  width: 270px;
+  left: 50px;
+  top: 350px;
+}
+
+#foto5 img {
+  height: 100%;
+  width: 100%;
+}
+
+#foto6{
+  box-shadow: 1px 1px 4px black;
+  position: absolute;
+  height: 150px;
+  width: 270px;
+  left: 370px;
+  top: 350px;
+}
+
+#foto6 img {
+  height: 100%;
+  width: 100%;
+}
+
+#foto7{
+  box-shadow: 1px 1px 4px black;
+  position: absolute;
+  height: 150px;
+  width: 270px;
+  left: 702px;
+  top: 350px;
+}
+
+#foto7 img {
+  height: 100%;
+  width: 100%;
+}
+
+#foto8{
+  box-shadow: 1px 1px 4px black;
+  position: absolute;
+  height: 150px;
+  width: 270px;
+  left: 1020px;
+  top: 350px;
+}
+
+#foto8 img {
+  height: 100%;
+  width: 100%;
+}
+
+
+.legenda {
+  line-height: 14px;
+}
+
+.banner {
+  display: block;
+  position: absolute;
+  background-image: url("/imagens/galaxia.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  width: 1350px;
+}
+
+#rodape {
+  position: relative;
+  top: 700px;
+  clear: both;
+  padding: 10px;
+  background-color: #475569;
+  margin-top: -4px;
+  width: 1350px;
+  height: 30px;
+}
+
+#rodape p {
+  text-align: center;
+  color: white;
+}
+
+#rodape p a {
+  color: white;
+}
+
+#lista ul {
+  display: block;
+  position: relative;
+  list-style: none;
+  top: 620px;
+  left: 585px;
+}
+
+
+#lista li.li {
+  display: inline-block;
+  background-color: #475569;
+  border-radius: 2px;
+  padding: 12px 15px;
+  margin: -4px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#lista li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#lista li.one {
+  padding-right: 18px;
+}
+
+#lista li.bord {
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+}
+
+#lista li.renegado {
+  border-left: 1px solid #ffffff;
+  padding-left: 10px;
+  padding-right: 13px;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <title>Fulo de mandacaru</title>
+    <script>
+      function procurar() {
+        let input = document.getElementById ('search').value
+        input=input.toLowerCase();
+        let x = document.getElementsByClassName('foto');
+
+        for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+        }
+        else {
+            x[i].style.display="list-item";                 
+          }
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="interface">
+    <header>
+      <div class="container">
+        <img src="/imagens/9k.png" class="icone2" alt="icone">
+        <div class="procurar">
+          <a href="#" class="sourch"
+            ><img src="/imagens/icone.png" class="icone" alt="Lupa"
+          /></a>
+          <input id="search" onkeyup="procurar()" type="text" name="tProcurar" class="text-src" placeholder="Pesquisar">
+        </input>
+        </div>
+      </div>
+    </header>
+    <section class="banner">
+      <figure id="foto" class="foto">
+        <a href="#"><img src="/imagens/Rectangle.png"/></a>
+        <figcaption class="legenda">
+          <a href="#"><h3>Densidade óssea e muscular em microgravidade</h3></a>
+        </figcaption>
+        <figcaption class="intacto">
+          <p class="ta">intacto</p>
+        </figcaption>
+      </figure>
+      <figure id="foto2" class="foto">
+        <a href="/Materiais resistentes_a_radiação_espacial.html" target="blank"><img src="/imagens/Rectangle.png"/></a>
+        <figcaption class="legenda">
+          <a href="/Materiais resistentes_a_radiação_espacial.html" target="blank"><h3>Materiais resistentes à radiação espacial</h3></a>
+        </figcaption>
+        <figcaption class="avariado">
+          <p class="ta">avariado</p>
+        </figcaption>
+      </figure>
+      <figure id="foto3" class="foto">
+        <a href="#"><img src="/imagens/Rectangle.png"/></a>
+        <figcaption class="legenda">
+          <a href="#"><h3>Comportamento de fluidos em microgravidade</h3></a>
+        </figcaption>
+        <figcaption class="avariado">
+          <p class="ta">avariado</p>
+        </figcaption>
+      </figure>
+      <figure id="foto4" class="foto">
+        <a href="#"><img src="/imagens/Rectangle.png"/></a>
+        <figcaption class="legenda">
+          <a href="#"><h3>Microrganismos em ambiente extremo</h3></a>
+        </figcaption>
+        <figcaption class="intacto">
+          <p class="ta">intacto</p>
+        </figcaption>
+      </figure>
+      <figure id="foto5" class="foto">
+       <a href="#"><img src="/imagens/Rectangle.png"/></a>
+        <figcaption class="legenda">
+          <a href="#"><h3>Crescimento de plantas em microgravidade</h3></a>
+        </figcaption>
+        <figcaption class="intacto">
+          <p class="ta">intacto</p>
+        </figcaption>
+      </figure>
+      <figure id="foto6" class="foto">
+        <a href="#"><img src="/imagens/Rectangle.png"/></a>
+        <figcaption class="legenda">
+          <a href="#"><h3>Regeneração de tecidos em microgravidade</h3></a>
+        </figcaption>
+        <figcaption class="avariado">
+          <p class="ta">avariado</p>
+        </figcaption>
+      </figure>
+      <figure id="foto7" class="foto">
+        <a href="#"><img src="/imagens/Rectangle.png"/></a>
+        <figcaption class="legenda">
+          <a href=""><h3>Comunicação por rádio no espaço</h3></a>
+        </figcaption>
+        <figcaption class="intacto">
+          <p class="ta">intacto</p>
+        </figcaption>
+      </figure>
+      <figure id="foto8" class="foto">
+        <a href="#"><img src="/imagens/Rectangle.png"/></a>
+        <figcaption class="legenda">
+          <a href="#"><h3>Cristalização de proteínas em microgravidade</h3></a>
+        </figcaption>
+        <figcaption class="avariado">
+          <p class="ta">avariado</p>
+        </figcaption>
+      </figure>
+      <nav id="lista">
+        <ul>
+          <li class="li" class="one"><a href="#">&lt;</a></li>
+          <li class="li" class="bord"><a href="index.html">1</a></li>
+          <li class="li" class="bord"><a href="/pag2.html">2</a></li>
+          <li class="li" class="bord"><a href="/pag3.html">3</a></li>
+          <li class="li" class="renegado"><a href="/pag2.html">&gt;</a></li>
+      </nav>
+    </section>
+    <footer id="rodape">
+      <p>
+        background for
+        <a
+          href="https://br.freepik.com/vetores-gratis/fundo-gradiente-de-galaxia_14658088.htm#query=space&position=6&from_view=search&track=robertav1_2_sidr" target="blank"
+          >Freepik</a
+        >
+      </p>
+    </footer>
+  </div>
+  </body>
+</html>
